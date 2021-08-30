@@ -65,8 +65,8 @@ def to_rdf(argv):
     # URL = 'https://jscholarship.library.jhu.edu/oai/request?set=col_1774.2_34121'
     # URL = 'https://jscholarship.library.jhu.edu/oai/request?set=col_1774.2_40418'
     # dst_file = '/Users/apple/Dropbox/JHU_Econ_OAI-PMH_to_rdf/result.rdf'   ## In case cron job needs absolute address
-    # dst_file = '//shiner.win.ad.jhu.edu/repec/jhu/papers/test.rdf' # Connect to VPN. map drive "\\shine.win.ad.jhu.edu\repec\papers\test" on Windows invert backlash for Mac. 
-    dst_file = '/Users/marce/Dropbox/Documents/CodeProjects/gittry/result.rdf'
+    dst_file = '//shiner.win.ad.jhu.edu/repec/jhu/papers/test.rdf' # Connect to VPN. map drive "\\shine.win.ad.jhu.edu\repec\papers\test" on Windows invert backlash for Mac. 
+    # dst_file = '/Users/marce/Dropbox/Documents/CodeProjects/gittry/result.rdf'
     jhu_people = get_jhu()
     dst_ids = []
 
